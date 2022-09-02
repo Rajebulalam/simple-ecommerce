@@ -1,0 +1,23 @@
+.header p {
+    position: relative;
+}
+
+.header p::before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: -8px;
+    width: 1px;
+    height: 15px;
+    background-color: #F0BE47;
+}
+
+.header p::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    right: -8px;
+    width: 1px;
+    height: 15px;
+    background-color: #F0BE47;
+}
