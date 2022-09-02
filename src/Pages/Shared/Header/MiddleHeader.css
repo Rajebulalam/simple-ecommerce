@@ -1,0 +1,27 @@
+select {
+    border-left: 1px solid #77287D;
+    padding: 10px 20px;
+}
+
+
+option {
+    box-shadow: 2px 4px 6px gray;
+}
+
+#search {
+    width:350px;
+}
+
+.login-register {
+    position: relative;
+}
+
+.login-register::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    right: 0;
+    width: 1px;
+    height: 70%;
+    background-color: #77287D;
+}
