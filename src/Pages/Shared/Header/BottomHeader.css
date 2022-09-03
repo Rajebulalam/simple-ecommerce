@@ -1,0 +1,67 @@
+.bottom-header {
+    height: 65px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.bottom-head {
+    position: relative;
+}
+
+.bottom-head::after {
+    content: '';
+    position: absolute;
+    top: 19px;
+    right: 3px;
+    width: 1px;
+    height: 17px;
+    background-color: #F0BE47;
+}
+
+.first::before {
+    content: '';
+    position: absolute;
+    top: 19px;
+    left: 3px;
+    width: 1px;
+    height: 17px;
+    background-color: #F0BE47;
+}
+
+.pseudo-both {
+    position: relative;
+}
+
+.pseudo-both::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 1px;
+    height: 17px;
+    background-color: #F0BE47;
+}
+
+.pseudo-both::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: -10px;
+    width: 1px;
+    height: 17px;
+    background-color: #F0BE47;
+}
+
+.pseudo-right {
+    position: relative;
+}
+
+.pseudo-right::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    width: 1px;
+    height: 17px;
+    background-color: #F0BE47;
+}

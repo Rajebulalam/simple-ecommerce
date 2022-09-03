@@ -8,7 +8,7 @@ const MiddleHeader = () => {
     return (
         <div className='w-full md:w-11/12 px-4 md:px-2 py-6 mx-auto flex justify-between items-center'>
             <div>
-                <Link className='text-4xl font-bold' to='/'>RM - COMMERCE</Link>
+                <Link className='text-4xl font-bold text-primary' to='/'>RM - COMMERCE</Link>
             </div>
             <div className='border border-primary flex items-center pl-3'>
                 <input type="search" name="search" id="search" placeholder='Search for Products' />
